@@ -1,12 +1,16 @@
-/************************** 
-GENERAL 
+/**************************
+GENERAL
 ***************************/
 
 
 #wrapper {
-    text-align: center;        
+    text-align: center;
 }
 
 #logo {
 
+}
+
+.teamPicture {
+  height: 300px;
 }
