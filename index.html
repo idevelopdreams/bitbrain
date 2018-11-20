@@ -1,28 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
-    <script src="js/main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+  <script src="js/main.js"></script>
 </head>
 <body>
     <header>
-        <div id="logo">Bit + brain</div>    
-        <nav>
-            <ul>
-                <a href=""><li>Mission</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Contact</li></a>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#pillars">Pillars</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    
+
     <div id="wrapper">
-        <h1>Hello!</h1>
+      <div>
+        <img src="assets/logos/brainplusbit.png" alt="Brain+Bit" id="mainlogo">
+      </div>
+
+      <hr>
+
+      <div id="mission">
+        <div id="ourmission">
+          <h1>Our Mission</h1>
+          <p>The Brain+Bit Foundation seeks to foster the learning and adoption of new technologies to improve the quality of life
+            in highly vulnerable areas in Latin America, establishing itself as the main benchmark in the formation of a new
+            generation of Professionals.</p>
+        </div>  
+      </div>
+
+      <hr>
+
+      <div id="pillars" class="container">
+        <h1>Our Pillars</h1>
+        <div id="pillars" class="row">
+
+          <div id="inclusion" class="col-xs-3">
+            <h2>Inclusion</h2>
+            <hr>
+            <p>Brain+bit Foundation helps people achieve quality training to work in the world of technology and the blockchain.
+              We form young people between 14 and 25 years old, regardless of race, sex or nationality.</p>
+          </div>
+
+          <div id="education" class="col-xs-6">
+            <h2>Education</h2>
+            <hr>
+            <div>
+              <h3>Courses</h3>
+              <div>
+                <strong>Introduction to Blockchain</strong> <br>
+                <span>You will learn the basic concepts of Blockchain and become familiar with the technology.</span>
+              </div>
+              <br>
+              <div>
+                <strong>Basic programming of public and private Blockchain</strong> <br>
+                <span>You will learn how to build a smart contract in a public and private decentralized Blockchain.</span>
+              </div>
+            </div>
+            <br>
+            <div>
+              <h3>Specialized Program</h3>
+              <span>In this program, you will learn how to program and create applicability of Blockchain technology.</span>
+            </div>
+          </div>
+
+          <div id="knowledgegroups" class="col-xs-3">
+            <h2>Knowledge Groups</h2>
+            <hr>
+            <p>In Brain+Bit Foundation while you are in your learning process, you can be an active participant in our
+              knowledge management groups, in which you will share your knowledge with other students, with tutors and people in the sector.</p>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="team">
+        <h1>Team</h1>
+        <div id="people" class="row">
+          <div id="CEO" class="col-xs-6">
+            <h2>Monica Loaiza Aguirre</h2>
+            <img src="assets/images/CEO.png" class="teamPicture">
+            <p>Computer Systems Administrator and Masters in Strategic Management of Information Technology,
+              with 8+ years in the education sector. I have done community work and helped vulnerable populations.
+              I am currently working to make the impact of Blockchain and Cryptocurrencies known.</p>
+            <div>
+              <a href="https://twitter.com/moniloaiza" target="_blank"><img src="assets/logos/twitter.png" alt="Twitter"></a>
+              <a href="https://www.linkedin.com/in/moniloaiza/" target="_blank"><img src="assets/logos/linkedin.png" alt="LinkedIn"></a>
+            </div>
+          </div>
+          <div id="COO" class="col-xs-6">
+            <h2>Luisa Restrepo Ospina</h2>
+            <img src="assets/images/COO.png" class="teamPicture">
+            <p>8 years of experience in administrative and commercial roles for local companies.
+              High abilities in social relations and communication, organizer and planner of meetings and
+              events educative related to Blockchain and Cryptocurrencies. Entrepreneur and enthusiast on Blockchain Technology.</p>
+            <div>
+              <a href="https://www.linkedin.com/in/luisa-fernanda-restrepo-ospina-91269969" target="_blank"><img src="assets/logos/linkedin.png" alt="LinkedIn"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="contact">
+        <h1>Contact Us</h1>
+        <div id="whatsapp">
+          <img src="assets/logos/phone.png" alt="WhatsApp:">
+          <span>+57 350-885-1464</span>
+        </div>
+        <div id="facebook">
+          <a href="https://www.facebook.com/brainplusbit" target="_blank">
+            <img src="assets/logos/facebook.png" alt="Facebook:">
+            <span>www.facebook.com/brainplusbit</span>
+          </a>
+        </div>
+        <div id="twitter">
+          <a href="https://www.twitter.com/brainplusbit" target="_blank">
+            <img src="assets/logos/twitter.png" alt="Twitter:">
+            <span>www.twitter.com/brainplusbit</span>
+          </a>
+        </div>
+      </div>
+
     </div>
 </body>
 </html>
