@@ -3,15 +3,62 @@ GENERAL
 ***************************/
 
 
-#wrapper {
+/* #wrapper {
   text-align: center;
-}
+} */
 
 #mainlogo {
-  width: 60%;
+  text-align: center;  
+  width: 80%;
 }
 
 .teamPicture {
   height: 300px;
   padding-bottom: 10px;
+}
+
+.container {
+  max-width: 940px;
+}
+
+/**************************
+HEADER
+***************************/
+
+header {
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 15px 0 0 0;
+  width: 100%;
+}
+
+/**************************
+NAVIGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+
+.nav>li {
+  display: inline-block;
+}
+
+/**************************
+Foooter
+***************************/
+
+/**************************
+PILLARS
+***************************/
+
+#courses-title {
+  margin-left: 10px;
+}
+
+.courses-info {
+  margin-left: 10px;
 }
