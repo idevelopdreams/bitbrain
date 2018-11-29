@@ -30,7 +30,7 @@ header {
   margin: 0 0 30px 0;
   padding: 15px 0 0 0;
   width: 100%;
-  background-color: #f8f8f8;
+  background-image: linear-gradient(#f8f8f8, #99b6e2);
 }
 
 /**************************
@@ -50,7 +50,13 @@ nav {
 
 .navbar {
   border: 0px;
-  border-bottom: 1px solid #e7e7e7;
+  background: rgba(255,255,255, 0);
+  border-bottom: 2px solid #333;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #333;
+  font-size: 18px;
 }
 
 /**************************
