@@ -8,7 +8,7 @@ GENERAL
 } */
 
 #mainlogo {
-  text-align: center;  
+  text-align: center;
   width: 80%;
 }
 
@@ -54,10 +54,6 @@ Foooter
 /**************************
 PILLARS
 ***************************/
-
-#courses-title {
-  margin-left: 10px;
-}
 
 .courses-info {
   margin-left: 10px;
