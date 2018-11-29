@@ -12,6 +12,10 @@ GENERAL
   width: 80%;
 }
 
+#pillars-header {
+  margin-bottom: 0px;
+}
+
 .teamPicture {
   height: 300px;
   padding-bottom: 10px;
