@@ -8,10 +8,11 @@ a {
 
 body {
   background-image: url('../assets/images/background.png');
+  background-position: center center;
 }
 
 #content {
-  background: rgba(0,0,0, 0.6);
+  background: rgba(0,0,0, 0.55);
 }
 
 #wrapper {
