@@ -2,8 +2,12 @@
 GENERAL
 ***************************/
 
-a {
+a, a:visited {
   color: #4db5ce;
+}
+
+a:active, a:hover { 
+  color: #8cc600;
 }
 
 body {
