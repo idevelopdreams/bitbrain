@@ -93,6 +93,25 @@ nav {
   font-size: 18px;
 }
 
+/******************
+STICKY BACK-TO TOP
+******************/
+
+#top-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(70,184,218, 1);
+  color: white;
+  width: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 16px rgba(0, 0, 0, 0.19);
+}
+
+#top-button:hover {
+  background: rgba(140,200,0, 1);
+}
+
+
 /**************************
 Foooter
 ***************************/
@@ -100,8 +119,8 @@ Foooter
 footer {
   padding: 30px;
   width: 100%;
-  background: rgba(255,255,255, 0.65);
-  /* border-top: 1px solid #e7e7e7; */
+  color: white;
+  background: rgba(0,0,0, 0.25);
   text-align: center;
 }
 
