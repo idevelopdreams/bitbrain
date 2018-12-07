@@ -2,16 +2,113 @@
 GENERAL
 ***************************/
 
+a:link, a:visited {
+  color: #4db5ce;
+}
+
+a:active, a:hover {
+  color: #8cc600;
+}
+
+body {
+  background-image: url('../assets/images/background.png');
+  background-position: center center;
+}
+
+#content {
+  background: rgba(0,0,0, 0.5);
+}
 
 #wrapper {
-  text-align: center;
+  color: white;
+  font-size: 16px;
+
+text-shadow:
+  -1px -1px 0 #000,
+   0   -1px 0 #000,
+   1px -1px 0 #000,
+   1px  0   0 #000,
+   1px  1px 0 #000,
+   0    1px 0 #000,
+  -1px  1px 0 #000,
+  -1px  0   0 #000;
+
+/*-webkit-text-stroke-width: 0.7px;*/
+/*    -webkit-text-stroke-color: black;*/
 }
 
 #mainlogo {
-  width: 60%;
+  text-align: center;
+  width: 80%;
+}
+
+#pillars-header {
+  margin-bottom: 0px;
 }
 
 .teamPicture {
   height: 300px;
   padding-bottom: 10px;
+}
+
+.container {
+  max-width: 940px;
+}
+
+/**************************
+HEADER
+***************************/
+
+header {
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 15px 0 0 0;
+  width: 100%;
+  background: rgba(255,255,255, 0.65);
+}
+
+/**************************
+NAVIGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+
+.nav>li {
+  display: inline-block;
+}
+
+.navbar {
+  border: 0px;
+  background: rgba(255,255,255, 0);
+  /* border-bottom: 2px solid #333; */
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #333;
+  font-size: 18px;
+}
+
+/**************************
+Foooter
+***************************/
+
+footer {
+  padding: 30px;
+  width: 100%;
+  background: rgba(255,255,255, 0.65);
+  /* border-top: 1px solid #e7e7e7; */
+  text-align: center;
+}
+
+/**************************
+PILLARS
+***************************/
+
+.courses-info {
+  margin-left: 10px;
 }
