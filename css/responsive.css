@@ -1,6 +1,10 @@
 @media screen and (min-width: 480px) {
 /* tablet */
-
+#mainlogo {
+    width: 70%;
+    text-align: center;
+    margin: 30% auto 0 ;
+  } 
 
 }
 
@@ -12,4 +16,24 @@
         display: inline-block;
     }
 
+    #mainlogo {
+        width: 60%;
+        text-align: center;
+        margin: 20% auto 0;
+      } 
 }
+
+@media screen and (min-width: 940px) {
+    /* desktop */
+        .container-fluid {
+            margin-right: none;
+            margin-left: none;
+            display: inline-block;
+        }
+    
+        #mainlogo {
+            width: 50%;
+            text-align: center;
+            margin: 10% 0 0 0;
+          } 
+    }
