@@ -1,7 +1,12 @@
 @media screen and (min-width: 480px) {
 /* tablet */
+.btn {
+    font-size: 2.1rem;
+    width: 27.333333%;
+}
+
 #mainlogo {
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 30% auto 0 ;
   } 
@@ -10,6 +15,11 @@
 
 @media screen and (min-width: 660px) {
 /* desktop */
+
+    .btn {
+        font-size: 2.1rem;
+        width: 27.333333%;
+    }
     .container-fluid {
         margin-right: none;
         margin-left: none;
