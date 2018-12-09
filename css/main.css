@@ -1,6 +1,5 @@
 /* exporting some fonts to use */
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
-@import 'https://fonts.googleapis.com/css?family=Nanum+Pen+Script';
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 /**************************
@@ -12,10 +11,6 @@ GENERAL
 
 a:link, a:visited {
   color: #4db5ce;
-}
-
-a:active, a:hover {
-  color: #8cc600;
 }
 
 body {
@@ -138,7 +133,6 @@ STICKY BACK-TO TOP
 ******************/
 
 #top-button {
-  font-family: 'Ubuntu';
   position: fixed;
   bottom: 10px;
   right: 10px;
