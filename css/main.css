@@ -138,12 +138,15 @@ STICKY BACK-TO TOP
 ******************/
 
 #top-button {
+  font-family: 'Ubuntu';
   position: fixed;
   bottom: 10px;
   right: 10px;
   background: rgba(70,184,218, 1);
-  color: white;
+  color: black;
+  font-weight: bold;
   width: 100px;
+  height: 60px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 16px rgba(0, 0, 0, 0.19);
 }
 
