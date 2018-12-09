@@ -171,9 +171,10 @@ MISSION STATEMENT
 #ourmission {
   font-family: 'Ubuntu';
   font-weight: bold;
-  color: #6FC900;
+  color: white;
   font-size: 2em;
   margin: 50px 10px 0;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /**************************
@@ -193,5 +194,6 @@ COLORS
 .btn.striped-shadow span {
   border-color: #4183D7;
   background: #99ffff;
-  color: #6FC900;
+  color: #2a8b01;
+  font-weight: 700;
 }
