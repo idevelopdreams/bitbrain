@@ -1,14 +1,14 @@
 /* exporting some fonts to use */
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
 @import 'https://fonts.googleapis.com/css?family=Nanum+Pen+Script';
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 /**************************
 GENERAL
 ***************************/
-img {
+/* img {
   width: 100%;
-}
+} */
 
 a:link, a:visited {
   color: #4db5ce;
@@ -168,11 +168,12 @@ footer {
 MISSION STATEMENT
 ***************************/
 
-p {
-  font-family: 'Nanum Pen Script';
+#ourmission {
+  font-family: 'Ubuntu';
+  font-weight: bold;
   color: #6FC900;
   font-size: 2em;
-  margin: 50px 10PX 0;
+  margin: 50px 10px 0;
 }
 
 /**************************
