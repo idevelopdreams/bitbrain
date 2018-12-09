@@ -71,6 +71,17 @@
     a:active, a:hover {
       color: #8cc600;
     }
+
+    /* Bootstrap col-xs-6 */
+    #CEO, #COO {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: left;
+      width: 50%;
+      padding-bottom: 40px;
+    }
 }
 
 @media screen and (min-width: 940px) {
