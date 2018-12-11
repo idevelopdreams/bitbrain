@@ -28,8 +28,7 @@
     // set height of header
     setHeight('full-header');
     setHeight('pillars');
-    // setHeight('team');
-    // setHeight('contact');
+    setHeight('team');
 
     // whenever the window is resize run this
     window.onresize = setHeight;
