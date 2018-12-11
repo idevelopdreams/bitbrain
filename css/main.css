@@ -20,7 +20,6 @@ body {
 
 #wrapper {
   color: white;
-  font-size: 12px;
   text-shadow:
     -1px -1px 0 #000,
      0   -1px 0 #000,
@@ -202,4 +201,8 @@ COLORS
   background: #4db5ce;
   color: lightgreen;
   font-weight: 700;
+}
+
+#wrapper p, .courses-info span {
+  font-size: 17px;
 }
