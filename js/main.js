@@ -18,7 +18,8 @@
       }, 0);
     }
 
-    // setting the height of the header to be the heihgt of the display
+    // setting the height of the header to be the height of the display
+
     function setHeight() {
       windowHeight = window.innerHeight.toString() + 'px';
       document.getElementById('full-header').style.height = windowHeight;
@@ -29,3 +30,13 @@
 
     // whenever the window is resize run this
     window.onresize = setHeight;
+
+    function setPillarHeight() {
+        windowHeight = window.innerHeight.toString() + 'px';
+        document.getElementById('pillars').style.height =
+        windowHeight;
+    };
+
+    setPillarHeight();
+
+    window.onresize = setPillarHeight;
