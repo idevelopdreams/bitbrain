@@ -6,9 +6,9 @@
 /**************************
 GENERAL
 ***************************/
-img {
+/* img {
   width: 100%;
-}
+} */
 
 a:link, a:visited {
   color: #4db5ce;
@@ -29,7 +29,8 @@ body {
 
 #wrapper {
   color: white;
-  font-size: 16px;
+  font-size: 12px;
+  
 
 text-shadow:
   -1px -1px 0 #000,
@@ -47,13 +48,21 @@ text-shadow:
   text-align: center;
   margin: 40% auto 0;
 }
+#pillars{
+  border: .5px hidden;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+  font-size: 12px;
+}
 
 #pillars-header {
   margin-bottom: 0px;
 }
 
 .teamPicture {
-  height: 300px;
+  /* height: 300px; */
   padding-bottom: 10px;
 }
 
@@ -236,12 +245,7 @@ footer {
 MISSION STATEMENT
 ***************************/
 
-p {
-  font-family: 'Nanum Pen Script';
-  color: #6FC900;
-  font-size: 2em;
-  margin: 50px 10PX 0;
-}
+
 
 /**************************
 PILLARS
