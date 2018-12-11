@@ -13,38 +13,11 @@
 
 }
 
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
 @media screen and (min-width: 660px) {
 /* desktop */
+    #top-button:hover {
+      background: rgba(140,200,0, 1);
+    }
 
     .btn {
       font-size: 2.1rem;
