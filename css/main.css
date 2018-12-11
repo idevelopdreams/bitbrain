@@ -5,9 +5,6 @@
 /**************************
 GENERAL
 ***************************/
-/* img {
-  width: 100%;
-} */
 
 a:link, a:visited {
   color: #4db5ce;
@@ -81,13 +78,14 @@ NAVIGATION
 
 /* styling nav links */
 .btn {
-  font-family: 'Bungee Shade', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 1.5px 1.5px 3px #000000;
   height: 80px;
   line-height: 65px;
   display: inline-block;
   letter-spacing: 1px;
   position: relative;
-  font-size: 1.0rem;
+  font-size: 4.2vw;
   transition: opacity .3s, z-index .3s step-end, -webkit-transform .3s;
   transition: opacity .3s, z-index .3s step-end, transform .3s;
   transition: opacity .3s,
@@ -137,15 +135,11 @@ STICKY BACK-TO TOP
   bottom: 10px;
   right: 10px;
   background: rgba(70,184,218, 1);
-  color: black;
+  color: white;
   font-weight: bold;
   width: 100px;
   height: 60px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 16px rgba(0, 0, 0, 0.19);
-}
-
-#top-button:hover {
-  background: rgba(140,200,0, 1);
 }
 
 
@@ -190,7 +184,7 @@ COLORS
 /* nav colors */
 .btn.striped-shadow span {
   border-color: #4183D7;
-  background: #99ffff;
-  color: #2a8b01;
+  background: #4db5ce;
+  color: white;
   font-weight: 700;
 }
