@@ -10,6 +10,14 @@
     text-align: center;
     margin: 30% auto 0 ;
   } 
+  #pillars{
+    border: .5px hidden;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    font-size: 14px;
+  }
 
 }
 
@@ -31,6 +39,14 @@
         text-align: center;
         margin: 20% auto 0;
       } 
+      #pillars{
+        border: .5px hidden;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        padding: 2px;
+        font-size: 16px;
+      }
 }
 
 @media screen and (min-width: 940px) {
@@ -46,4 +62,12 @@
             text-align: center;
             margin: 10% 0 0 0;
           } 
+          #pillars{
+            border: .5px hidden;
+            margin: auto;
+            height: 100%;
+            width: 100%;
+            padding: 2px;
+            font-size: 18px;
+          }
     }
