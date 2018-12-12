@@ -206,3 +206,7 @@ COLORS
 #wrapper p, .courses-info span {
   font-size: 17px;
 }
+
+strong {
+  font-size: 17px;
+}
