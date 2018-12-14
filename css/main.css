@@ -5,10 +5,6 @@
 GENERAL
 ***************************/
 
-  img {
-  width: 100%;
-}   
-
 a:link, a:visited {
   color: #4db5ce;
 }
@@ -24,18 +20,15 @@ body {
 
 #wrapper {
   color: white;
-  font-size: 12px;
-  
-
-text-shadow:
-  -1px -1px 0 #000,
-   0   -1px 0 #000,
-   1px -1px 0 #000,
-   1px  0   0 #000,
-   1px  1px 0 #000,
-   0    1px 0 #000,
-  -1px  1px 0 #000,
-  -1px  0   0 #000;
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
 }
 
 #mainlogo {
@@ -43,6 +36,7 @@ text-shadow:
   text-align: center;
   margin: 5% auto 0;
 }
+
 #pillars{
   border: .5px hidden;
   margin: auto;
@@ -57,7 +51,7 @@ text-shadow:
 }
 
 .teamPicture {
-  /* height: 300px; */
+  height: 300px;
   padding-bottom: 10px;
 }
 
@@ -186,7 +180,14 @@ PILLARS
 ***************************/
 
 .courses-info {
-  margin-left: 10px;
+  margin-left: 10px ;
+}
+
+/**************************
+TEAM
+***************************/
+#team {
+  margin: 0 0 50px;
 }
 
 
@@ -200,4 +201,12 @@ COLORS
   background: #4db5ce;
   color: lightgreen;
   font-weight: 700;
+}
+
+#wrapper p, .courses-info span {
+  font-size: 17px;
+}
+
+strong {
+  font-size: 17px;
 }

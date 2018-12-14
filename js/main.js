@@ -1,3 +1,9 @@
+// Set header height
+setHeight();
+// Start out page at top
+if (!window.location.hash) {
+    topFunction();
+}
 
     // fires when the window scrolls
     window.onscroll = function() { scrollFunction(); };
@@ -18,25 +24,12 @@
       }, 0);
     }
 
-    // setting the height of the header to be the height of the display
+    // setting the height of any elementto be equal to the height of the display
 
     function setHeight() {
-      windowHeight = window.innerHeight.toString() + 'px';
-      document.getElementById('full-header').style.height = windowHeight;
+        windowHeight = window.innerHeight.toString() + 'px';
+        document.getElementById('full-header').style.height = windowHeight;
     }
-
-    // set height of header
-    setHeight();
 
     // whenever the window is resize run this
     window.onresize = setHeight;
-
-    function setPillarHeight() {
-        windowHeight = window.innerHeight.toString() + 'px';
-        document.getElementById('pillars').style.height =
-        windowHeight;
-    };
-
-    setPillarHeight();
-
-    window.onresize = setPillarHeight;
